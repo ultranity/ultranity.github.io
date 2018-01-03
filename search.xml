@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo写作笔记]]></title>
+    <url>%2F2018%2F01%2F03%2Fhexo%E5%86%99%E4%BD%9C%E7%AC%94%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[hexo写作&amp;心得笔记零零碎碎写了这么些个文章，也着实费了些心思，对一些发现做点笔记 hexo管理语法hexoclean:清除缓存g:生成文件d:git部署s:开启本地预览localhost:4000–debug: 开启debug文章标注标签多标签语法形如tags: [blog,心得]分类多分类&amp;多级分类：：用格式语法标记，如标记在idea和a下的b内123categories: - [idea] - [a,b]密码password不为空时要求密码，参见hexo配置经历版权声明经过我的优化，post文章默认有版权声明，只要在不需要版权声明的部分标注nocopyright: true，参见hexo配置经历置顶排序top值默认为零，需置顶就调大top，参见hexo配置经历]]></content>
+      <categories>
+        <category>blog</category>
+        <category>笔记</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[书籍整理计划]]></title>
+    <url>%2F2018%2F01%2F03%2F%E4%B9%A6%E7%B1%8D%E6%95%B4%E7%90%86%E8%AE%A1%E5%88%92%2F</url>
+    <content type="text"><![CDATA[书籍整理计划准备把近段时间看的书整理一下]]></content>
+      <categories>
+        <category>计划</category>
+        <category>书籍</category>
+        <category>整理</category>
+        <category>书籍</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+        <tag>计划</tag>
+        <tag>整理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[利用vhd虚拟盘挂载减少文件碎片]]></title>
+    <url>%2F2018%2F01%2F03%2F%E5%88%A9%E7%94%A8vhd%E8%99%9A%E6%8B%9F%E7%9B%98%E6%8C%82%E8%BD%BD%E5%87%8F%E5%B0%91%E6%96%87%E4%BB%B6%E7%A2%8E%E7%89%87%2F</url>
+    <content type="text"><![CDATA[利用vhd虚拟盘挂载减少文件碎片建站有大量零碎的小文件，无论是删除还是移动都是麻烦事，很费时间，突然想到可以利用vhdx挂载的方式把git文件归总在一起建成一个虚拟盘文件，固定化后就可以减少碎片化了，留到放假后操作。]]></content>
+      <categories>
+        <category>blog</category>
+        <category>idea</category>
+        <category>优化</category>
+        <category>待实现</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>idea</tag>
+        <tag>优化</tag>
+        <tag>待实现</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[日常规划]]></title>
     <url>%2F2018%2F01%2F02%2F%E8%A7%84%E5%88%92%2F</url>
     <content type="text"><![CDATA[假期预备接续工作记录期末不能再把时间花在整理站点上了，要着力复习，记录下避免遗忘的工作站点优化​ 参考：zhuzhuyule.iozhuzhuyule.iowuxinbjwuxinbj next-modify已知问题SEOneat导致js失效工作搬运与记录日常规划日记梦境idea阅读时文冥想]]></content>
