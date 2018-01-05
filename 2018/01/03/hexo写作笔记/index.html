@@ -98,18 +98,18 @@
 
 
 
-<meta name="description" content="hexo写作&amp;amp;心得笔记零零碎碎写了这么些个文章，也着实费了些心思，对一些发现做点笔记hexo管理语法">
+<meta name="description" content="hexo写作&amp;amp;心得笔记  零零碎碎写了这么些个文章，也着实费了些心思，对一些发现做点笔记 hexo管理语法">
 <meta name="keywords" content="blog,心得">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo写作笔记">
 <meta property="og:url" content="https://ultranity.github.io/2018/01/03/hexo写作笔记/index.html">
 <meta property="og:site_name" content="Ultranity&#39;s blog">
-<meta property="og:description" content="hexo写作&amp;amp;心得笔记零零碎碎写了这么些个文章，也着实费了些心思，对一些发现做点笔记hexo管理语法">
+<meta property="og:description" content="hexo写作&amp;amp;心得笔记  零零碎碎写了这么些个文章，也着实费了些心思，对一些发现做点笔记 hexo管理语法">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-01-03T08:59:18.635Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo写作笔记">
-<meta name="twitter:description" content="hexo写作&amp;amp;心得笔记零零碎碎写了这么些个文章，也着实费了些心思，对一些发现做点笔记hexo管理语法">
+<meta name="twitter:description" content="hexo写作&amp;amp;心得笔记  零零碎碎写了这么些个文章，也着实费了些心思，对一些发现做点笔记 hexo管理语法">
 
 
 
@@ -521,7 +521,47 @@
       
 
       
-        <!-- build time:Fri Jan 05 2018 13:49:50 GMT+0800 (中国标准时间) --><h1 id="hexo写作-amp-心得笔记"><a href="#hexo写作-amp-心得笔记" class="headerlink" title="hexo写作&amp;心得笔记"></a>hexo写作&amp;心得笔记</h1><p>零零碎碎写了这么些个文章，也着实费了些心思，对一些发现做点笔记</p><h2 id="hexo管理"><a href="#hexo管理" class="headerlink" title="hexo管理"></a>hexo管理</h2><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><a id="more"></a><p>hexo</p><ul><li>clean:清除缓存</li><li>new：生成新文档（带模板）</li><li>g:等同于generate，生成文件</li><li>d:等同于deploy，git部署</li><li>s:等同于server，开启本地预览<a href="localhost:4000" target="_blank" rel="noopener">localhost:4000</a></li><li>–debug: 开启debug</li><li>-g,-s,-d:可同时执行多命令</li></ul><figure class="highlight clean"><figcaption><span>Remove generated files and cache.</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">  config    Get or set configurations.</span><br><span class="line">  deploy    Deploy your website.</span><br><span class="line">  generate  Generate static files.</span><br><span class="line">  help      Get help on a command.</span><br><span class="line">  init      Create a new Hexo folder.</span><br><span class="line">  list      List the information <span class="keyword">of</span> the site</span><br><span class="line">  migrate   Migrate your site <span class="keyword">from</span> other <span class="keyword">system</span> to Hexo.</span><br><span class="line">  new       Create a new post.</span><br><span class="line">  publish   Moves a draft post <span class="keyword">from</span> _drafts to _posts folder.</span><br><span class="line">  render    Render files <span class="keyword">with</span> renderer plugins.</span><br><span class="line">  server    Start the server.</span><br><span class="line">  version   Display version information.</span><br><span class="line"></span><br><span class="line">Global Options:</span><br><span class="line">--config  Specify config file instead <span class="keyword">of</span> using _config.yml</span><br><span class="line">  --cwd     Specify the CWD</span><br><span class="line">  --debug   Display all verbose messages <span class="keyword">in</span> the terminal</span><br><span class="line">  --draft   Display draft posts</span><br><span class="line">  --safe    Disable all plugins and scripts</span><br><span class="line">  --silent  Hide output on console</span><br></pre></td></tr></table></figure><h2 id="文章标注"><a href="#文章标注" class="headerlink" title="文章标注"></a>文章标注</h2><h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><ul><li>多标签语法形如<code>tags: [blog,心得]</code></li></ul><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><ul><li><p>多分类&amp;多级分类：：用格式语法标记，如标记在idea和a下的b内</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">categories: </span><br><span class="line"> - [idea]</span><br><span class="line"> - [a,b]</span><br></pre></td></tr></table></figure></li></ul><h3 id="密码"><a href="#密码" class="headerlink" title="密码"></a>密码</h3><ul><li>password不为空时要求密码，参见<a href="/2018/01/02/hexo%20与nexT配置经历/">hexo配置经历</a></li></ul><h3 id="版权声明"><a href="#版权声明" class="headerlink" title="版权声明"></a>版权声明</h3><ul><li>经过我的优化，post文章默认有版权声明，只要在不需要版权声明的部分标注<code>nocopyright: true</code>，参见<a href="/2018/01/02/hexo%20与nexT配置经历/">hexo配置经历</a></li></ul><h3 id="置顶排序"><a href="#置顶排序" class="headerlink" title="置顶排序"></a>置顶排序</h3><ul><li><p><del>top值默认为零，需置顶就调大top，参见<a href="/2018/01/02/hexo%20与nexT配置经历/">hexo配置经历</a></del></p></li><li><p><del>刚发现next自带有这个功能。。。标注<code>sticky:</code>值就好</del></p></li><li><p>//看<a href="https://github.com/iissnan/hexo-theme-next/issues/415" target="_blank" rel="noopener">GitHub issue</a>作者已经因为BUG又把这个功能去掉了（捂脸），现在没有了置顶功能，不过标注sticky会在文章前增加图钉的图标。所以要</p><p><code>top值和sticky值默认为零，需置顶就调大top和sticky，参见[hexo配置经历](/2018/01/02/hexo%20与nexT配置经历/)</code></p></li><li><p>Netcan_Space的<a href="http://www.netcan666.com/2015/11/22/%E8%A7%A3%E5%86%B3Hexo%E7%BD%AE%E9%A1%B6%E9%97%AE%E9%A2%98/" target="_blank" rel="noopener">解决Hexo置顶问题</a>给出了一种新方案 ,可用性<del>有待尝试</del>已验证，执行</p><figure class="highlight plain"><figcaption><span>npm install hexo-generator-index-pin-top --save</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure><p>top值和sticky值默认为零，需排序就调大top，要置顶图标设sticky（注意sticky不能排序）</p></li></ul><!-- rebuild by neat -->
+        <h1 id="hexo写作-amp-心得笔记"><a href="#hexo写作-amp-心得笔记" class="headerlink" title="hexo写作&amp;心得笔记"></a>hexo写作&amp;心得笔记</h1><p>  零零碎碎写了这么些个文章，也着实费了些心思，对一些发现做点笔记</p>
+<h2 id="hexo管理"><a href="#hexo管理" class="headerlink" title="hexo管理"></a>hexo管理</h2><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><a id="more"></a>
+<p>hexo </p>
+<ul>
+<li>clean:清除缓存</li>
+<li>new：生成新文档（带模板）</li>
+<li>g:等同于generate，生成文件</li>
+<li>d:等同于deploy，git部署</li>
+<li>s:等同于server，开启本地预览<a href="localhost:4000" target="_blank" rel="noopener">localhost:4000</a></li>
+<li>–debug: 开启debug</li>
+<li>-g,-s,-d:可同时执行多命令</li>
+</ul>
+<figure class="highlight clean"><figcaption><span>Remove generated files and cache.</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">  config    Get or set configurations.</span><br><span class="line">  deploy    Deploy your website.</span><br><span class="line">  generate  Generate static files.</span><br><span class="line">  help      Get help on a command.</span><br><span class="line">  init      Create a new Hexo folder.</span><br><span class="line">  list      List the information <span class="keyword">of</span> the site</span><br><span class="line">  migrate   Migrate your site <span class="keyword">from</span> other <span class="keyword">system</span> to Hexo.</span><br><span class="line">  new       Create a new post.</span><br><span class="line">  publish   Moves a draft post <span class="keyword">from</span> _drafts to _posts folder.</span><br><span class="line">  render    Render files <span class="keyword">with</span> renderer plugins.</span><br><span class="line">  server    Start the server.</span><br><span class="line">  version   Display version information.</span><br><span class="line"></span><br><span class="line">Global Options:</span><br><span class="line">--config  Specify config file instead <span class="keyword">of</span> using _config.yml</span><br><span class="line">  --cwd     Specify the CWD</span><br><span class="line">  --debug   Display all verbose messages <span class="keyword">in</span> the terminal</span><br><span class="line">  --draft   Display draft posts</span><br><span class="line">  --safe    Disable all plugins and scripts</span><br><span class="line">  --silent  Hide output on console</span><br></pre></td></tr></table></figure>
+<h2 id="文章标注"><a href="#文章标注" class="headerlink" title="文章标注"></a>文章标注</h2><h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><ul>
+<li>多标签语法形如<code>tags: [blog,心得]</code></li>
+</ul>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><ul>
+<li><p>多分类&amp;多级分类：：用格式语法标记，如标记在idea和a下的b内</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">categories: </span><br><span class="line"> - [idea]</span><br><span class="line"> - [a,b]</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="密码"><a href="#密码" class="headerlink" title="密码"></a>密码</h3><ul>
+<li>password不为空时要求密码，参见<a href="/2018/01/02/hexo%20与nexT配置经历/">hexo配置经历</a></li>
+</ul>
+<h3 id="版权声明"><a href="#版权声明" class="headerlink" title="版权声明"></a>版权声明</h3><ul>
+<li>经过我的优化，post文章默认有版权声明，只要在不需要版权声明的部分标注<code>nocopyright:  true</code>，参见<a href="/2018/01/02/hexo%20与nexT配置经历/">hexo配置经历</a></li>
+</ul>
+<h3 id="置顶排序"><a href="#置顶排序" class="headerlink" title="置顶排序"></a>置顶排序</h3><ul>
+<li><p><del>top值默认为零，需置顶就调大top，参见<a href="/2018/01/02/hexo%20与nexT配置经历/">hexo配置经历</a></del></p>
+</li>
+<li><p><del>刚发现next自带有这个功能。。。标注<code>sticky:</code>值就好</del></p>
+</li>
+<li><p>//看<a href="https://github.com/iissnan/hexo-theme-next/issues/415" target="_blank" rel="noopener">GitHub issue</a>作者已经因为BUG又把这个功能去掉了（捂脸），现在没有了置顶功能，不过标注sticky会在文章前增加图钉的图标。所以要</p>
+<p><code>top值和sticky值默认为零，需置顶就调大top和sticky，参见[hexo配置经历](/2018/01/02/hexo%20与nexT配置经历/)</code></p>
+</li>
+<li><p>Netcan_Space的<a href="http://www.netcan666.com/2015/11/22/%E8%A7%A3%E5%86%B3Hexo%E7%BD%AE%E9%A1%B6%E9%97%AE%E9%A2%98/" target="_blank" rel="noopener">解决Hexo置顶问题</a>给出了一种新方案 ,可用性<del>有待尝试</del>已验证，执行</p>
+<figure class="highlight plain"><figcaption><span>npm install hexo-generator-index-pin-top --save</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+<p>top值和sticky值默认为零，需排序就调大top，要置顶图标设sticky（注意sticky不能排序）</p>
+</li>
+</ul>
+
       
     </div>
     
